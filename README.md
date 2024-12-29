@@ -20,11 +20,11 @@ CartMingle is built using the following technologies:
 
 ## **Installation**
 
-To set up CartMingle locally, follow these steps:
+To set up CartMingle locally, follow these steps in VS Code:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Imtiyaz272/CartMingle.git
+   git clone https://github.com/Imtiyaz272/Cart-Mingle.git
    ```
 
 2. **Navigate to the project folder**
