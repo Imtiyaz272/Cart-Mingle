@@ -59,13 +59,6 @@ io.on('connection', (socket)=>{
   console.log("A new user has connected", socket.id);
 
   handleSocketEvents(socket,io);
-  // socket.on('join-chat',(chatId) => {
-  //   socket.join(chatId);
-  // })
-
-  // socket.on('user-message', (data)=>{
-  //   io.to(data.chatId).emit('recieved-message', data.message);
-  // })
 });
 
 
