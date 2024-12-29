@@ -59,6 +59,20 @@ export default class CartPageComponent implements OnInit{
     })
   }
 
+  increaseQuantity(cartItem: any): void {
+    if (cartItem.quantity < 10) { 
+      cartItem.quantity++;
+      this.updateQuantity(cartItem.quantity, cartItem.productId);
+    }
+  }
+  
+  decreaseQuantity(cartItem: any): void {
+    if (cartItem.quantity > 1) { 
+      cartItem.quantity--;
+      this.updateQuantity(cartItem.quantity, cartItem.productId);
+    }
+  }
+  
   removeItem(productId:string)
   {
     const itemToRemove = this.cart.items.find(item=> item.productId===productId);

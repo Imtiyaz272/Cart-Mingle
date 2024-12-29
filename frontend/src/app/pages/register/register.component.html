@@ -28,9 +28,9 @@
             <span required *ngIf="registerForm.hasError('required','confirmPassword') && registerForm.controls['confirmPassword'].dirty"  class="text-rose-500 ">*Confirm Password is required</span>
             <span *ngIf="registerForm.hasError('confirmPasswordValidator','confirmPassword')"  class="text-rose-500 ">Password didn't matched !</span>
         </div>
-        <button [disabled]="registerForm.invalid" [class.disable]="registerForm.invalid" (click)="register()" class="text-white bg-indigo-700 mb-4 border-black w-3/12 mx-auto mt-4 rounded-xl p-3">Submit</button>
+        <button [disabled]="registerForm.invalid" [class.disable]="registerForm.invalid" (click)="register()" style="background-color: #62825D;" class="text-white mb-4 border-black w-3/12 mx-auto mt-4 rounded-xl p-3">Submit</button>
     </form>
     <div class="mb-5 flex justify-center">
-        <span>Already have account ? </span><a class="text-indigo-600 ml-2 cursor-pointer">Login Here</a>
+        <span>Already have account ? </span><a class=" ml-2 cursor-pointer" style="color: #62825D;">Login Here</a>
     </div>
 </div>
