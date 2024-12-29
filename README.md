@@ -133,7 +133,7 @@ To use CartMingle, follow these steps:
 10. **Complete the Purchase:**
    - When ready, either user can proceed to checkout to complete the order.
      
-    ![CM14](https://github.com/user-attachments/assets/07395a1a-3f57-4d20-92d8-a7d016772a89)
+   ![CM14](https://github.com/user-attachments/assets/268c6fbd-81c8-4abf-bfc1-2636831a8204)
 
 
 ## **Future Enhancements**
